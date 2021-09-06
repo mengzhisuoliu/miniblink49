@@ -1,8 +1,8 @@
 version: "1"
 rules:
   - base: master
-    upstream: myfork:master
+    upstream: owner:myfork
     mergeMethod: hardreset
   - base: release
-    upstream: myfork:release
+    upstream: owner:myfork
     mergeMethod: hardreset
