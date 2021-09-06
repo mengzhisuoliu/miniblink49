@@ -1,8 +1,0 @@
-version: "1"
-rules:
-  - base: master
-    upstream: owner:my
-    mergeMethod: hardreset
-  - base: release
-    upstream: owner:my
-    mergeMethod: hardreset
